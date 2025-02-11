@@ -1,7 +1,7 @@
 import os
 import json
-from hash import hash_file_contents
-from store import store_blob
+from utils.hash import hash_file_contents
+from utils.store import store_blob
 
 
 def is_already_staged(filename, file_hash):

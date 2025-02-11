@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
 import sys
-from add import add
-from checkout import checkout
-from commit import commit
-from log import log
-from init import init
-from say import saymyname
-from status import status
-from when import when
+from commands.add import add
+from commands.checkout import checkout
+from commands.commit import commit
+from commands.log import log
+from commands.init import init
+from commands.say import saymyname
+from commands.status import status
+from commands.when import when
 
 
 def show_help():

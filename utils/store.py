@@ -1,5 +1,5 @@
 import os
-from hash import hash_file_contents
+from utils.hash import hash_file_contents
 
 
 def store_blob(file_path):
